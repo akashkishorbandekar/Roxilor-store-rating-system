@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #263b32;
+  background: #f5f1e8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+
+  --color-primary: #183d32;
+  --color-primary-dark: #102e25;
+  --color-accent: #c8795a;
+  --color-text: #263b32;
+  --color-muted: #858b7e;
+  --color-background: #f5f1e8;
+  --color-surface: #fffefa;
+  --color-border: #e8e1d5;
+  --font-heading: 'Manrope', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  display: block;
+  background: var(--color-background);
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-accent);
+}
+
+::selection {
+  background: #d9e4d9;
+  color: #183d32;
+}
+
+:focus-visible {
+  outline: 3px solid rgba(200, 121, 90, 0.35);
+  outline-offset: 2px;
+}
+
+@media (max-width: 600px) {
+  html,
+  body,
+  #root {
+    min-width: 320px;
+  }
+}
