@@ -235,13 +235,16 @@ A unique constraint on `(user_id, store_id)` ensures that a user has one rating 
 
 ## Screenshots
 
-Application screenshots will be added here to demonstrate:
 
-- Login and Registration
-- Administrator Dashboard
-- Normal User Dashboard
-- Store Owner Dashboard
-- Store Rating Functionality
+![Login and Registration](screenshots/login.png)
+
+
+![Administrator Dashboard](screenshots/user1.png)
+
+![Normal User Dashboard](screenshots/user.png)
+
+
+![Store Owner Dashboard](screenshots/owner.png)
 
 ## Assessment
 
