@@ -7035,3 +7035,48 @@ button:disabled {
 .owner-studio-store-card:hover {
   border-color: #C8795A;
 }
+.user-crm-rating-hover {
+  position: relative !important;
+  z-index: 1000 !important;
+}
+
+.user-crm-rating-hover:hover {
+  z-index: 1000 !important;
+}
+
+.user-crm-rating-popover {
+  position: absolute !important;
+  z-index: 1001 !important;
+  isolation: isolate;
+}
+
+.user-crm-store-grid {
+  position: relative;
+  overflow: visible !important;
+}
+
+.user-crm-store-card {
+  position: relative !important;
+  z-index: 1;
+  overflow: visible !important;
+}
+
+.user-crm-store-card:hover,
+.user-crm-store-card:focus-within {
+  z-index: 50 !important;
+}
+
+.user-crm-rating-hover {
+  position: relative !important;
+  z-index: 51 !important;
+}
+
+.user-crm-rating-hover:hover {
+  z-index: 51 !important;
+}
+
+.user-crm-rating-popover {
+  position: absolute !important;
+  z-index: 52 !important;
+  display: block;
+}
